@@ -9,3 +9,18 @@ body{
     background-color: #f4f4f4;
     min-height: 400px;
 }
+
+header{
+    width: 100%;
+    background-color: #9ea7aa;
+    align-items: center;
+}
+
+section{
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+}
