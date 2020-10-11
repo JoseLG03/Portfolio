@@ -21,6 +21,7 @@ body{
 
 #head{
     grid-area: head;
+    background-color: #9da6a9;
 }
 
 .wrapper{
@@ -29,19 +30,18 @@ body{
     grid-template-columns: repeat(2, 1fr);   
 }
 
+#logo{
+    grid-area: logo;
+    display: block;
+}
+
 #container{
     display: flex;
     flex-direction: row;
 }
 
-#logo{
-    grid-area: logo;
-    background-color: #9da6a9;
-}
-
 #nav{
     grid-area: menu;
-    background-color: #9da6a9;
 }
 
 ul#menu{
@@ -54,6 +54,7 @@ ul#menu li{
 
 #menu li a{
     text-decoration: none;
+    color: white;
 }
 
 #main{
