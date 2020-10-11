@@ -1,0 +1,11 @@
+body{
+    background-color: #cfd8dc;
+}
+
+#global{
+    width: 97%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    min-height: 400px;
+}
