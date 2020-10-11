@@ -16,12 +16,32 @@ body{
                          "main main main sidebar"
                          "foot foot foot foot";
     grid-template-rows: repeat(4, 1fr);
+    align-items: stretch;
 }
 
 #head{
-    background: #9ea7aa;
-    align-items: center;
     grid-area: head;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-areas: "logo menu";
+    grid-template-columns: repeat(2, 1fr);   
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    grid-area: logo;
+    background-color: #9da6a9;
+}
+
+#nav{
+    grid-area: menu;
+    background-color: #9da6a9;
 }
 
 ul#menu{
