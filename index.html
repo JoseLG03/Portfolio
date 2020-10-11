@@ -6,36 +6,52 @@
         <link rel="stylesheet" href="./css/styles.css">       
     </head>
     <body>
+        <!-- Sección global para dejar un fondo-->
         <section id="global">
-            <header>
-                    <div id="logo">
-                        <img  id="img_logo"src="./img/code.jpg" alt="logo">
-                        <h3>Portafolio</h3>
-                    </div>
-                    <nav id="nav">
-                        <ul id="menu">
-                            <li>
-                                <a href="#">Acerca de mi</a>
-                            </li>
-                            <li>
-                                <a href="#">Aprendizaje continuo</a>
-                            </li>
-                            <li>
-                                <a href="#">Proyectos</a>
-                            </li>
-                            <li>
-                                <a href="#">Contactame</a>
-                            </li>
-                        </ul>
-                    </nav
-            </header>
-            <section>
-                Acerca de mi.
-            </section>
-            <section>
-                Descripción
-            </section>
-            <footer>Soy el pie de pagina</footer>
+            <div class="grid">
+                <!-- Encabezado-->
+                <header class="head">
+                        <div class="wrapper">
+                            <div id="logo">
+                                <img  id="img_logo"src="./img/code.jpg" alt="logo">
+                                <h3>Portafolio</h3>
+                            </div>
+                            <nav id="nav">
+                                <ul id="menu">
+                                    <li>
+                                        <a href="#">Acerca de mi</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Aprendizaje continuo</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Proyectos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contactame</a>
+                                    </li>
+                                </ul>
+                            </nav
+                        </div>
+                </header>
+                <!-- Cierre de encabezado-->
+
+                <!-- Contenido-->
+                <section id="main">
+                    Descripción
+                </section>
+                <!-- Cierre de contenido-->
+
+                <!-- Sidebar-->    
+                <sidebar id="sidebar">
+                    lateral
+                </sidebar>
+                <!-- Cierre de sidebar-->
+
+                <!-- Pie de página-->
+                <footer id="foot">Soy el pie de pagina</footer>
+                <!-- Cierre de pie de página-->
+            </div>
 
             <!-- mis scripts-->
             <script src="./js/main.js"></script>

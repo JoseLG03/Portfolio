@@ -10,17 +10,47 @@ body{
     min-height: 400px;
 }
 
+#grid{
+    display: grid;
+    grid-template-areas: "head head head head"
+                         "main main main sidebar"
+                         "foot foot foot foot";
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+}
+
 header{
     width: 100%;
     background-color: #9ea7aa;
     align-items: center;
+    grid-area: head;
+    background: blue;
 }
 
-section{
-    background-color: white;
+ul#menu{
+   list-style: none;
 }
 
-footer{
+ul#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    text-decoration: none;
+}
+
+#main{
+    grid-area: main;
+    background: red;
+}
+
+#sidebar{
+    grid-area: sidebar;
+    background: yellow;
+}
+
+#foot{
     background-color: black;
     color: blanchedalmond;
+    grid-area: foot;
 }
