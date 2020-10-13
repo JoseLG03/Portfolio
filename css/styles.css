@@ -7,7 +7,7 @@
 
 body{
     background-color: #cfd8dc;
-    font-family: "roboto";
+    font-family: Helvetica;
 }
 
 #global{
@@ -55,7 +55,6 @@ body{
 }
 
 h1{
-    font-family: sans-serif;
     font-size: 28px;
 }
 
