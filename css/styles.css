@@ -57,6 +57,10 @@ body{
     margin: 5px 20px 0px 30px
 }
 
+#img_logo:hover{
+    cursor: pointer;
+}
+
 #headline{
     display: block;
     text-decoration: none;
