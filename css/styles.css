@@ -16,6 +16,8 @@ body{
     margin-top: 30px;
     background-color: #f4f4f4;
     min-height: 400px;
+    border: 0px solid #383838;
+    border-radius: 2em;
 }
 
 .grid{
@@ -30,6 +32,8 @@ body{
 #head{
     grid-area: head;
     background-color: #9da6a9;
+    border: 0px solid #383838;
+    border-radius: 2em 2em 0px 0px;
 }
 
 .wrapper{
