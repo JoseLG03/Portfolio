@@ -7,7 +7,7 @@
 
 body{
     color: #607D8B;
-    background-color: #cfd8dc;
+    background-color: #f8f8f8;
     font-family: "roboto";
 }
 
@@ -105,7 +105,7 @@ ul#menu li{
 
 #main{
     grid-area: main;
-    background: red;
+    background: #ffffff;
 }
 
 #sidebar{
