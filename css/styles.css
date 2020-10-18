@@ -12,7 +12,7 @@ body{
 }
 
 #global{
-    width: 97%;
+    width: 95%;
     margin: 0px auto;
     margin-top: 30px;
     background-color: #f4f4f4;
@@ -26,8 +26,7 @@ body{
     grid-template-areas: "head head head head"
                          "main main main sidebar"
                          "foot foot foot foot";
-    grid-template-rows: repeat(4, 1fr);
-    align-items: stretch;
+    grid-template-rows: 25% 1fr 20%;
 }
 
 #head{
@@ -55,7 +54,7 @@ body{
 
 #img_logo{
     display: block;
-    margin: 5px 20px 0px 30px
+    margin: 2px 20px 0px 30px
 }
 
 #img_logo:hover{
@@ -106,6 +105,16 @@ ul#menu li{
 #main{
     grid-area: main;
     background: #ffffff;
+}
+
+#main h2{
+    margin-top: 1em;
+    margin-left: 15px;
+}
+
+#main p{
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 #sidebar{
