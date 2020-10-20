@@ -6,7 +6,6 @@
 }
 
 body{
-    color: #607D8B;
     background-color: #f8f8f8;
     font-family: "roboto";
 }
@@ -26,7 +25,7 @@ body{
     grid-template-areas: "head head head head"
                          "main main main sidebar"
                          "foot foot foot foot";
-    grid-template-rows: 25% 1fr 20%;
+    grid-template-rows: 20% 1fr 20%;
 }
 
 #head{
@@ -154,5 +153,16 @@ ul#menu_foot{
 .redes{
     height: 40px;
     width: 40px;
+    color: #607D8B;
     margin-top: 2px;   
+}
+
+.parrafo{
+    color: black;
+    font-size: 10px;
+    text-align: justify;
+}
+
+#copyright{
+    text-align: center;
 }
