@@ -128,6 +128,11 @@ ul#menu li{
     grid-area: foot;
 }
 
+#nav_foot{
+    display: flex;
+    justify-content: center;
+}
+
 ul#menu_foot{
     list-style: none;
  }
