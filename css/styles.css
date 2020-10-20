@@ -25,7 +25,7 @@ body{
     grid-template-areas: "head head head head"
                          "main main main sidebar"
                          "foot foot foot foot";
-    grid-template-rows: 20% 1fr 20%;
+    grid-template-rows: 20% 60% 150px;
 }
 
 #head{
@@ -159,8 +159,9 @@ ul#menu_foot{
 
 .parrafo{
     color: black;
-    font-size: 10px;
-    text-align: justify;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 #copyright{
