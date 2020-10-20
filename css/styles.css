@@ -54,7 +54,9 @@ body{
 
 #img_logo{
     display: block;
-    margin: 2px 20px 0px 30px
+    height: 40px;
+    width: 40px;
+    margin: 18px 35px 0px 35px
 }
 
 #img_logo:hover{
@@ -119,7 +121,7 @@ ul#menu li{
 
 #sidebar{
     grid-area: sidebar;
-    background: yellow;
+    background: lightgray;
 }
 
 #foot{
@@ -151,5 +153,6 @@ ul#menu_foot{
 
 .redes{
     height: 40px;
-    width: 40px;   
+    width: 40px;
+    margin-top: 2px;   
 }
