@@ -123,7 +123,28 @@ ul#menu li{
 }
 
 #foot{
-    background-color: black;
+    background-color: #cfd8dc;
     color: blanchedalmond;
     grid-area: foot;
+}
+
+ul#menu_foot{
+    list-style: none;
+ }
+ 
+ ul#menu_foot li{
+     display: inline-block;
+     align-items: center;
+     margin-right: 30px;
+     margin-left: 30px;
+     letter-spacing: unset;
+ }
+ 
+ #menu_foot li a{
+     display: block;
+ }
+
+.redes{
+    height: 40px;
+    width: 40px;   
 }
