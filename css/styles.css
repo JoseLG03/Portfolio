@@ -25,7 +25,7 @@ body{
     grid-template-areas: "head head head head"
                          "main main main sidebar"
                          "foot foot foot foot";
-    grid-template-rows: 20% 60% 150px;
+    grid-template-rows: 15% 65% 20%;
 }
 
 #head{
@@ -116,6 +116,7 @@ ul#menu li{
 #main p{
     margin-top: 1em;
     margin-left: 1em;
+    margin-right: 1em;
 }
 
 #sidebar{
@@ -127,6 +128,7 @@ ul#menu li{
     background-color: #cfd8dc;
     color: blanchedalmond;
     grid-area: foot;
+    border-radius: 0px 0px 2em 2em;
 }
 
 #nav_foot{
