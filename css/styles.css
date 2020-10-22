@@ -55,7 +55,7 @@ body{
     display: block;
     height: 40px;
     width: 40px;
-    margin: 18px 35px 0px 35px
+    margin: 30px 35px 0px 35px
 }
 
 #img_logo:hover{
@@ -78,6 +78,10 @@ h1{
     font-size: 28px;
 }
 
+#headline{
+    margin-top: 10px;
+}
+
 #nav{
     grid-area: menu;
 }
@@ -88,7 +92,7 @@ ul#menu{
 
 ul#menu li{
     display: inline-block;
-    margin: 10px 10px 0px 20px;
+    margin: 24px 10px 0px 20px;
     letter-spacing: unset;
 }
 
@@ -121,11 +125,11 @@ ul#menu li{
 
 #sidebar{
     grid-area: sidebar;
-    background: #cfd8dc;
+    background: #eceff1;
 }
 
 #foot{
-    background-color: #cfd8dc;
+    background-color: #bfd1d3;
     color: blanchedalmond;
     grid-area: foot;
     border-radius: 0px 0px 2em 2em;
