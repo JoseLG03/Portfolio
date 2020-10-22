@@ -9,35 +9,34 @@ function cambiarImagen(id, img){
 }
 
 logo_face.onmouseover = function(){
-  cambiarImagen('logo_face', './img/facebook_azul.png');
+  cambiarImagen(logo_face.id, './img/facebook_azul.png');
 }  
 
 logo_face.onmouseleave = function(){
-  cambiarImagen('logo_face', './img/facebook_negro.png');
+  cambiarImagen(logo_face.id, './img/facebook_negro.png');
 }  
 
 logo_github.onmouseover = function(){
-  cambiarImagen('logo_github', './img/github_azul.png');
+  cambiarImagen(logo_github.id, './img/github_azul.png');
 }  
 
 logo_github.onmouseleave = function(){
-  cambiarImagen('logo_github', './img/github_negro.png');
+  cambiarImagen(logo_github.id, './img/github_negro.png');
 }   
 
 logo_linkedin.onmouseover = function(){
-  cambiarImagen('logo_linkedin', './img/linkedin_azul.png');
+  cambiarImagen(logo_linkedin.id, './img/linkedin_azul.png');
 }  
 
 logo_linkedin.onmouseleave = function(){
-  cambiarImagen('logo_linkedin', './img/linkedin_negro.png');
+  cambiarImagen(logo_linkedin.id, './img/linkedin_negro.png');
 }   
 
 logo_whats.onmouseover = function(){
-  cambiarImagen('logo_whats', './img/whatsapp_verde.png');
+  cambiarImagen(logo_whats.id, './img/whatsapp_verde.png');
 }  
 
 logo_whats.onmouseleave = function(){
-  cambiarImagen('logo_whats', './img/whatsapp_negro.png');
+  cambiarImagen(logo_whats.id, './img/whatsapp_negro.png');
 }   
 
-  
