@@ -168,9 +168,9 @@ ul#menu_foot{
     color: black;
     font-size: 12px;
     text-align: center;
-    padding-bottom: 5px;
 }
 
-#copyright{
-    text-align: center;
+#p_foot{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
