@@ -60,6 +60,7 @@ body{
 
 #img_logo:hover{
     cursor: pointer;
+    filter: opacity(0.7);
 }
 
 #headline{
@@ -164,13 +165,26 @@ ul#menu_foot{
     margin-top: 2px;   
 }
 
-.parrafo{
-    color: black;
-    font-size: 12px;
-    text-align: center;
+#logo_face:hover{
+    filter: opacity(0.9);
 }
 
-#p_foot{
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+#logo_linkedin:hover{
+    filter: opacity(0.9);
+}
+
+#logo_github:hover{
+    filter: opacity(0.9);
+}
+
+#logo_whats:hover{
+    filter: opacity(0.9);
+}
+
+span{
+    color: black;
+    font-size: 12px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
 }
