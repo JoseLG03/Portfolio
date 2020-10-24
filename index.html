@@ -54,10 +54,6 @@
                         <p>Para saber más sobre mi o sobre mi trabajo, no dudes en ponerte en contacto conmigo.
                         Estoy aquí para ayudarte.
                         </p>    
-                        <p>
-                        Envíame tu consulta al 4431163465 y a la brevedad responderé
-                        todas tus dudas.
-                        </p>
                     </div>
                     <div id="learning">
                         <h2>Cursos de Desarrollo Web</h2>
@@ -80,9 +76,20 @@
 
                 <!-- Sidebar-->    
                 <sidebar id="sidebar">
-                    <h2>Sidebar</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum been, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <h2 id="h2_contactame">Contactame</h2>
+                    <form>
+                        <label id="nombre" class="form" placeholder="Introduce tu nombre...">Nombre:</label>
+                        <input type="text" />
+    
+                        <label id="email" class="form" placeholder="Introduce tu correo...">E-mail:</label>
+                        <input type="email" />
+                        
+                        <label id="mensaje" class="form" placeholder="Introduce tu mensaje...">Mensaje:</label>
+                        <textarea rows="4" cols="50"></textarea>
+                        <p id="enviar_form">
+                            <input type="submit" class="form" id="enviar" value="Enviar" />
+                        </p>
+                    </form>
                 </sidebar>
                 <!-- Cierre de sidebar-->
 

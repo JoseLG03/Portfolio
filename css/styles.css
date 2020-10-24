@@ -127,6 +127,22 @@ ul#menu li{
 #sidebar{
     grid-area: sidebar;
     background: #eceff1;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#h2_contactame{
+    text-align: center;
+}
+
+form{
+    text-align: left;
+}
+
+label{
+    display:flex;
+    width: 80%;
 }
 
 #foot{
