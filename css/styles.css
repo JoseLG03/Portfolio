@@ -4,6 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
+html { 
+    font-size: 16px; 
+}
 
 body{
     background-color: #f8f8f8;
@@ -18,9 +21,9 @@ body{
     background-color: #bfd1d3;
     min-height: 400px;
     border-radius: 2em;
-    -webkit-box-shadow: 0px 15px 48px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 15px 48px -5px rgba(0,0,0,0.75);
-    box-shadow: 0px 15px 48px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 5px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 15px 1px rgba(0,0,0,0.75);
 }
 
 .grid{
@@ -78,7 +81,7 @@ body{
 }
 
 h1{
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 #headline{
@@ -103,7 +106,7 @@ ul#menu li{
     display: block;
     text-decoration: none;
     color: #f5f5f5;
-    font-size: 17px;
+    font-size: 1.125rem;
 }
 
 #menu li a:hover{
@@ -234,4 +237,5 @@ ul#menu_foot{
     text-align: center;
     background-color: #bfd1d3;
     border-radius: 0px 0px 2em 2em;
+    font-size: 0.75rem;
 }
