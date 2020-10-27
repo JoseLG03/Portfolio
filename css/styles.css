@@ -192,6 +192,7 @@ label{
     display: flex;
     justify-content: center;
     background-color: #bfd1d3;
+    border-radius: 0px 0px 2em 2em;
 }
 
 ul#menu_foot{
@@ -235,7 +236,8 @@ ul#menu_foot{
 
 #p_foot{
     text-align: center;
+    margin: 0px auto;
     background-color: #bfd1d3;
-    border-radius: 0px 0px 2em 2em;
     font-size: 0.75rem;
+    width: 50%;
 }
