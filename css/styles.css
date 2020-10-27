@@ -31,7 +31,7 @@ body{
     grid-template-areas: "head head head head"
                          "main main main sidebar"
                          "foot foot foot foot";
-    grid-template-rows: 15% 69% 15%;
+    grid-template-rows: 7% 85% 7%;
 }
 
 #head{
@@ -121,12 +121,28 @@ ul#menu li{
 #main h2{
     margin-top: 1em;
     margin-left: 15px;
+    text-align: center;
 }
 
 #main p{
     margin-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+.cursos{
+    margin-top: 1em;
+    margin-left: 15px;
+    font-size: 1.125rem;
+}
+
+.cursos ul{
+    list-style: none;
+    color: blanck;
+}
+
+.cursos li{
+    
 }
 
 #sidebar{
