@@ -112,21 +112,31 @@ ul#menu li{
     color: #cfd8dc;
 }
 
+#idioma{
+    border: 1px solid white;
+    padding: 0px 10px 0px 10px;;
+}
+
 #main{
     grid-area: main;
     background: #ffffff;
 }
 
 #main h2{
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-left: 15px;
     text-align: center;
     color: #607D8B;
 }
 
+#cedula{
+    text-decoration: none;
+    color: #607D8B;
+}
+
 #main p{
     margin-top: 1em;
-    margin-left: 1em;
+    margin-left: 2em;
     margin-right: 1em;
 }
 
@@ -134,6 +144,12 @@ ul#menu li{
     margin-top: 1em;
     margin-left: 15px;
     font-size: 1rem;
+}
+
+.cursos_link a{
+    text-decoration: none;
+    margin-left: 1.1em;
+    color: #607D8B;
 }
 
 .cursos ul{
