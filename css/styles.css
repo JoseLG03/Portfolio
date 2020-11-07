@@ -27,16 +27,14 @@ body{
 
 .grid{
     display: grid;
-    grid-template-areas: "head head head head"
+    grid-template-areas:
                          "main main main sidebar"
                          "foot foot foot foot";
     grid-template-rows: 5% 88% 7%;
 }
 
 #head{
-    grid-area: head;
     background-color: #607D8B;
-    border-radius: 2em 2em 0px 0px;
 }
 
 .wrapper{
