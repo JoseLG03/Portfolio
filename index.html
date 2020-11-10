@@ -4,7 +4,8 @@
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
         <title>Portafolio de José López Guerrero</title>
         <link rel="icon" type="image/png" href="./img/favicon.ico" />
-        <link rel="stylesheet" href="./css/styles.css">       
+        <link rel="stylesheet" href="./css/styles.css">    
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>   
     </head>
     <body>
             <!-- Encabezado-->
@@ -140,7 +141,7 @@
                 <!-- Sidebar-->    
                 <sidebar id="sidebar">
                     <h2 id="h2_contactame">Contáctame</h2>
-                    <form>
+                    <form name="contacto" id="contacto" method="post">
                         <label id="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Nombre:</label>
                         <input type="text" class="item_form" />
     
@@ -150,7 +151,7 @@
                         <label id="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Mensaje:</label>
                         <textarea rows="4" cols="40" class="item_form"></textarea>
                         <p id="enviar_form">
-                            <input type="submit" class="item_form" id="btn_enviar" value="Enviar" />
+                            <input type="submit" class="item_form" id="btn_enviar" value="Enviar"  disabled/>
                         </p>
                     </form>
                 </sidebar>
