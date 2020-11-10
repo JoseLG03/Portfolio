@@ -62,13 +62,17 @@ function disableSubmit (idForm) {
 
 function checkForm (idForm) {
 	$(idForm + " *").on("change keydown", function() {
-		if (checkInput("#nombre", namePattern) &&  
-      checkInput("#email", emailPattern) &&
-      checkTextarea("#mensaje"))
+    if (checkInput("#nombre", namePattern) 
+    //&&  
+    //  checkInput("#email", emailPattern) &&
+    //  checkTextarea("#mensaje")
+    )
 		{
-			enableSubmit(idForm);
+      enableSubmit(idForm);
+      console.log("boton habilitado");
 		} else {
-			disableSubmit(idForm);
+      disableSubmit(idForm);
+      console.log("boton deshabilitado");
 		}
 	});
 }
