@@ -64,7 +64,7 @@ body{
     display: block;
     height: 40px;
     width: 40px;
-    margin: 24px 35px 0px 35px
+    margin: 24px 35px 0px 50px;
 }
 
 #img_logo:hover{
@@ -77,6 +77,7 @@ body{
     text-decoration: none;
     color: #f5f5f5;
     margin-left: 1em;
+    letter-spacing: 2px;
 }
 
 #headline:hover{
@@ -112,6 +113,7 @@ ul#menu li{
     color: #f5f5f5;
     font-size: 1.125rem;
     margin-top: -8px;
+    margin-left: 12px;
 }
 
 #menu li a:hover{
