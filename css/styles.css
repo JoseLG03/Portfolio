@@ -11,6 +11,8 @@ html {
 body{
     background-color: #f8f8f8;
     font-family: "roboto";
+    margin: 0;
+    padding: 0;
 }
 
 #global{
@@ -30,7 +32,8 @@ body{
     grid-template-areas:
                          "main main main sidebar"
                          "foot foot foot foot";
-    grid-template-rows: 90% 9%;
+    grid-template-rows: 93% 6%;
+    padding-top: 60px;
 }
 
 #head{
