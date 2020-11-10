@@ -140,17 +140,17 @@
                 <!-- Sidebar-->    
                 <sidebar id="sidebar">
                     <h2 id="h2_contactame">Contáctame</h2>
-                    <form name="contacto" id="contacto" method="post">
-                        <label id="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Nombre:</label>
-                        <input type="text" class="item_form" />
+                    <form name="contacto" id="contacto" method="post" action="mailto:antares069@gmail.com" enctype="text/plain">
+                        <label id="nombre" for="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Nombre:</label>
+                        <input type="text" name="nombre" class="item_form" />
     
-                        <label id="email" class="item_form" size="40" placeholder="Introduce tu correo...">E-mail:</label>
-                        <input type="email"  class="item_form" />
+                        <label id="email" for="email" class="item_form" size="40" placeholder="Introduce tu correo...">E-mail:</label>
+                        <input type="email"  name="email" class="item_form" />
                         
-                        <label id="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Mensaje:</label>
-                        <textarea rows="4" cols="40" class="item_form"></textarea>
+                        <label id="mensaje" for="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Mensaje:</label>
+                        <textarea rows="4" cols="40" name="mensaje" class="item_form"></textarea>
                         <p id="enviar_form">
-                            <input type="submit" class="item_form" id="btn_enviar" value="Enviar"  disabled/>
+                            <input type="submit" class="item_form" id="btn_enviar" value="Enviar" />
                         </p>
                     </form>
                 </sidebar>
@@ -191,7 +191,8 @@
                 <!-- Cierre de pie de página-->
             </div>
             <!-- mis scripts-->
-            <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>   
+            <script src="./lbs/jquery.min.js"></script>
+            <script src="./lbs/jquery-3.5.1.min.js"></script>  
             <script src="./js/main.js"></script>
         </div>
     </body>

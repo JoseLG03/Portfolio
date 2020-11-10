@@ -44,39 +44,39 @@ logo_whats.onmouseleave = function(){
 var namePattern = "^[a-z A-Z]{4,30}$";
 var emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$";
 
-function checkInput(idInput, pattern) {
-	return $(idInput).val().match(pattern) ? true : false;
-}
-
-function checkTextarea(idText) {
-	return $(idText).val().length > 12 ? true : false;	
-}
-
-function enableSubmit (idForm) {
-	$(idForm + " button.submit").removeAttr("disabled");
-}
-
-function disableSubmit (idForm) {
-	$(idForm + " button.submit").attr("disabled", "disabled");
-}
-
-function checkForm (idForm) {
-	$(idForm + " *").on("change keydown", function() {
-    if (checkInput("#nombre", namePattern) 
-    //&&  
-    //  checkInput("#email", emailPattern) &&
-    //  checkTextarea("#mensaje")
-    )
-		{
-      enableSubmit(idForm);
-      console.log("boton habilitado");
-		} else {
-      disableSubmit(idForm);
-      console.log("boton deshabilitado");
-		}
-	});
-}
 
 $(function() {
-	checkForm("#contacto");
+  $("form[name='contacto']").validate({
+
+    rules: {
+
+      nombre: "required",
+
+      mensaje: "required",
+
+      email: {
+        required: true,
+        email: true
+      }
+    },
+
+    messages: {
+
+      nombre: "Por favor, introduzca su nombre",
+
+      email: "Por favor, introduce una dirección de correo electrónico válida",
+
+      mensaje: "Por favor, introduzca su mensaje"    
+
+    },
+
+    submitHandler: function(form) {
+
+      form.submit();
+
+    }
+
+  });
+
 });
+
