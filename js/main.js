@@ -80,4 +80,3 @@ $(function() {
 
 });
 
-//Cambio de idioma
