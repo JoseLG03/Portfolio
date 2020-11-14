@@ -309,11 +309,19 @@ ul#menu_foot{
     #menu li a{
         margin-left: 8px;
     }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
   }
 
   @media only screen and (max-width: 1240px) {
     #menu li a{
         margin-left: 6px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
     }
   }
 
@@ -321,11 +329,19 @@ ul#menu_foot{
     #menu li a{
         margin-left: 4px;
     }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
   }
 
   @media only screen and (max-width: 1205px) {
     #menu li a{
         margin-left: 2px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
     }
   }
 
@@ -333,10 +349,100 @@ ul#menu_foot{
     #menu li a{
         margin-left: 0px;
     }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
   }
 
   @media only screen and (max-width: 1170px) {
     #menu li a{
         margin-left: -2px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1155px) {
+    #menu li a{
+        margin-left: -4px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1140px) {
+    #menu li a{
+        margin-left: -6px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1122px) {
+    #menu li a{
+        margin-left: -8px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1108px) {
+    #menu li a{
+        margin-left: -10px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1090px) {
+    #menu li a{
+        margin-left: -12px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1075px) {
+    #menu li a{
+        margin-left: -14px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 1060px) {
+    #menu li a{
+        margin-left: -16px;
+    }
+  }
+
+  @media only screen and (max-width: 1042px) {
+    #menu li a{
+        margin-left: -18px;
+    }
+  }
+
+  @media only screen and (max-width: 1026px) {
+    #menu li a{
+        margin-left: -20px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
     }
   }
