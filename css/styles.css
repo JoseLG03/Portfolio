@@ -301,33 +301,42 @@ ul#menu_foot{
 
 @media only screen and (max-width: 1270px) {
     #menu li a{
-        display: block;
-        text-decoration: none;
-        color: #f5f5f5;
-        font-size: 1.125rem;
-        margin-top: -8px;
         margin-left: 10px;
     }
   }
 
   @media only screen and (max-width: 1250px) {
     #menu li a{
-        display: block;
-        text-decoration: none;
-        color: #f5f5f5;
-        font-size: 1.125rem;
-        margin-top: -8px;
         margin-left: 8px;
     }
   }
 
   @media only screen and (max-width: 1240px) {
     #menu li a{
-        display: block;
-        text-decoration: none;
-        color: #f5f5f5;
-        font-size: 1.125rem;
-        margin-top: -8px;
         margin-left: 6px;
+    }
+  }
+
+  @media only screen and (max-width: 1218px) {
+    #menu li a{
+        margin-left: 4px;
+    }
+  }
+
+  @media only screen and (max-width: 1205px) {
+    #menu li a{
+        margin-left: 2px;
+    }
+  }
+
+  @media only screen and (max-width: 1188px) {
+    #menu li a{
+        margin-left: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 1170px) {
+    #menu li a{
+        margin-left: -2px;
     }
   }
