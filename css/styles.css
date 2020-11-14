@@ -446,3 +446,50 @@ ul#menu_foot{
         letter-spacing: 1px;
     }
   }
+
+  @media only screen and (max-width: 1010px) {
+    #menu li a{
+        margin-left: -22px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 995px) {
+    #menu li a{
+        margin-left: -24px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 978px) {
+    html { 
+        font-size: 15px; 
+    }
+    #menu li a{
+        margin-left: -24px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
+
+  @media only screen and (max-width: 928px) {
+    html { 
+        font-size: 14px; 
+    }
+    
+    #menu li a{
+        margin-left: -24px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+  }
