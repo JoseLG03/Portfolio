@@ -501,13 +501,16 @@ ul#menu_foot{
     #head {
         padding: 3px;
     }
+    .redes {
+        height: 35px;
+        width: 35px;
+    }
   }
   
   @media only screen and (max-width: 878px) {
     html { 
         font-size: 12px; 
     }
-    
     #menu li a{
         margin-left: -24px;
     }
@@ -516,10 +519,17 @@ ul#menu_foot{
         letter-spacing: 1px;
     }
     #head {
-        padding: 5px;
+        padding: 6px;
+    }
+    .redes {
+        height: 30px;
+        width: 30px;
+    }
+    #img_logo {
+        margin: 15px 30px 0px 22px;
     }
     #p_foot {
-        width: 65%;
+        width: 70%;
     }
   }
 
@@ -555,4 +565,21 @@ ul#menu_foot{
     #head {
         padding: 5px;
     }
+}
+
+@media only screen and (max-width: 710px) {
+    html { 
+        font-size: 10px; 
     }
+    
+    #menu li a{
+        margin-left: -26px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+    .grid {
+        padding-top: 55px;
+    }
+}
