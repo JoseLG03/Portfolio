@@ -576,98 +576,28 @@ ul#menu_foot{
 
 @media only screen and (max-width: 710px) {
     html { 
-        font-size: 12px; 
-    }
-    
-    #menu li a{
-        margin-left: -28px;
-    }
-    #headline {
-        margin-left: -0.5em;
-        letter-spacing: 0px;
-    }
-    .grid {
-        padding-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 660px) {
-    html { 
-        font-size: 12px; 
-    }
-
-    #img_logo {
-        margin: 8px 30px 0px 22px;
-    }
-    
-    #menu li a{
-        margin-left: 2-26px;
-    }
-    #headline {
-        margin-left: -0.5em;
-        letter-spacing: 1px;
-    }
-    .grid {
-        padding-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 610px) {
-    html { 
-        font-size: 0.5em;
-    }
-
-    #img_logo {
-        margin: 8px 30px 0px 22px;
-    }
-    
-    h1 {
-        margin-top: 2.3em;;
-    }
-    #headline {
-        margin-left: -0.5em;
-        letter-spacing: 1px;
-    }
-    .grid {
-        padding-top: 50px;
-    }
-    #menu li a {
-        margin-left: 90px;
-    }
-    .redes {
-        height: 20px;
-        width: 20px;
-    }
-}
-
-@media only screen and (max-width: 560px) {
-    html { 
-        font-size: 0.7em;
-    }
-
-    h1{
-        font-size: 1.3rem;
+        font-size: 0.7rem; 
     }
     ul#menu li{
         display: inline;
     }
-    #menu li a {
+    .grid {
+        padding-top: 115px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+    #menu li a{
         margin-left: 100px;
     }
     #img_logo {
         margin: 35px 30px 0px 22px;
     }
-    #menu li a{
-        margin-left: 100px;
+    h1 {
+        margin-top: 2em;
     }
-    #head {
-        padding: 0px;
-    }
-    #headline {
-        margin-left: -0.5em;
-        letter-spacing: 1px;
-    }
-    .grid {
-        padding-top: 100px;
+    #idioma{
+        padding: 0px 0px 0px 0px;
     }
 }
