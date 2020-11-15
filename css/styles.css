@@ -126,7 +126,7 @@ ul#menu li{
 
 #idioma{
     border: 1px solid whitesmoke;
-    padding: 0px 10px 0px 10px;;
+    padding: 0px 10px 0px 10px;
 }
 
 #main{
@@ -556,40 +556,17 @@ ul#menu_foot{
 
 @media only screen and (max-width: 760px) {
     html { 
-        font-size: 12px; 
-    }
-    
-    #menu li a{
-        margin-left: -26px;
-    }
-    #headline {
-        margin-left: -0.5em;
-        letter-spacing: 1px;
-    }
-    #head {
-        padding: 5px;
-    }
-    .grid {
-        padding-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 710px) {
-    html { 
         font-size: 0.7rem; 
     }
     ul#menu li{
         display: inline;
     }
     .grid {
-        padding-top: 115px;
+        padding-top: 130px;
     }
     #headline {
         margin-left: -0.5em;
         letter-spacing: 1px;
-    }
-    #menu li a{
-        margin-left: 100px;
     }
     #img_logo {
         margin: 35px 30px 0px 22px;
@@ -598,6 +575,33 @@ ul#menu_foot{
         margin-top: 2em;
     }
     #idioma{
-        padding: 0px 0px 0px 0px;
+        padding: 0px;
+        border: none;
+    }
+    #menu li a{
+        margin-left: 180px;
+    }
+    #idioma{
+        border: 1px solid whitesmoke;
+        padding: 0px 10px 0px 10px;
+    }
+    #nav{
+     width: 78%;
+    }
+    .grid{
+        display: grid;
+        grid-template-areas:
+                             "main"
+                             "sidebar"
+                             "foot";
+        grid-template-rows: 70% 25% 5%;
+    }
+
+    form#contacto {
+        margin-left: 30%;
+    }
+    #enviar_form {
+        /* text-align: center; */
+        margin-right: 46%;
     }
 }
