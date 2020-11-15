@@ -481,6 +481,9 @@ ul#menu_foot{
     #head {
         padding: 1px;
     }
+    #p_foot {
+        width: 58%;
+    }
   }
 
   @media only screen and (max-width: 928px) {
@@ -515,6 +518,9 @@ ul#menu_foot{
     #head {
         padding: 5px;
     }
+    #p_foot {
+        width: 65%;
+    }
   }
 
   @media only screen and (max-width: 776px) {
@@ -533,3 +539,20 @@ ul#menu_foot{
         padding: 5px;
     }
   }
+
+@media only screen and (max-width: 760px) {
+    html { 
+        font-size: 11px; 
+    }
+    
+    #menu li a{
+        margin-left: -26px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+    #head {
+        padding: 5px;
+    }
+    }
