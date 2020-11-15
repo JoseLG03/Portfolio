@@ -548,11 +548,15 @@ ul#menu_foot{
     #head {
         padding: 5px;
     }
+    .grid {
+        padding-top: 50px;
+    }
+    
   }
 
 @media only screen and (max-width: 760px) {
     html { 
-        font-size: 11px; 
+        font-size: 12px; 
     }
     
     #menu li a{
@@ -565,21 +569,105 @@ ul#menu_foot{
     #head {
         padding: 5px;
     }
+    .grid {
+        padding-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 710px) {
     html { 
-        font-size: 10px; 
+        font-size: 12px; 
     }
     
     #menu li a{
-        margin-left: -26px;
+        margin-left: -28px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 0px;
+    }
+    .grid {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    html { 
+        font-size: 12px; 
+    }
+
+    #img_logo {
+        margin: 8px 30px 0px 22px;
+    }
+    
+    #menu li a{
+        margin-left: 2-26px;
     }
     #headline {
         margin-left: -0.5em;
         letter-spacing: 1px;
     }
     .grid {
-        padding-top: 55px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    html { 
+        font-size: 0.5em;
+    }
+
+    #img_logo {
+        margin: 8px 30px 0px 22px;
+    }
+    
+    h1 {
+        margin-top: 2.3em;;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+    .grid {
+        padding-top: 50px;
+    }
+    #menu li a {
+        margin-left: 90px;
+    }
+    .redes {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    html { 
+        font-size: 0.7em;
+    }
+
+    h1{
+        font-size: 1.3rem;
+    }
+    ul#menu li{
+        display: inline;
+    }
+    #menu li a {
+        margin-left: 100px;
+    }
+    #img_logo {
+        margin: 35px 30px 0px 22px;
+    }
+    #menu li a{
+        margin-left: 100px;
+    }
+    #head {
+        padding: 0px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+    .grid {
+        padding-top: 100px;
     }
 }
