@@ -478,6 +478,9 @@ ul#menu_foot{
         margin-left: -0.5em;
         letter-spacing: 1px;
     }
+    #head {
+        padding: 1px;
+    }
   }
 
   @media only screen and (max-width: 928px) {
@@ -491,5 +494,42 @@ ul#menu_foot{
     #headline {
         margin-left: -0.5em;
         letter-spacing: 1px;
+    }
+    #head {
+        padding: 3px;
+    }
+  }
+  
+  @media only screen and (max-width: 878px) {
+    html { 
+        font-size: 12px; 
+    }
+    
+    #menu li a{
+        margin-left: -24px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+    #head {
+        padding: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 776px) {
+    html { 
+        font-size: 12px; 
+    }
+    
+    #menu li a{
+        margin-left: -26px;
+    }
+    #headline {
+        margin-left: -0.5em;
+        letter-spacing: 1px;
+    }
+    #head {
+        padding: 5px;
     }
   }
