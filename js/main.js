@@ -80,3 +80,6 @@ $(function() {
 
 });
 
+function limpiarFormulario(){
+  document.getElementById("contacto").reset();
+}
