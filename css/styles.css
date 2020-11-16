@@ -298,6 +298,9 @@ ul#menu_foot{
     font-size: 0.75rem;
     width: 50%;
 }
+#projects {
+    margin-bottom: 30px;
+}
 
 @media only screen and (max-width: 1270px) {
     #menu li a{
@@ -691,7 +694,7 @@ ul#menu_foot{
 @media only screen and (max-width: 530px) {
     #enviar_form {
         /* text-align: center; */
-        margin-left: -22%;
+        margin-left: -25%;
     }
     #menu li a{
         margin-left: 80px;
@@ -748,18 +751,90 @@ ul#menu_foot{
     }
 }
 
-@media only screen and (max-width: 450px) {
-    #enviar_form {
-        /* text-align: center; */
-        margin-left: -18%;
+    @media only screen and (max-width: 450px) {
+        #enviar_form {
+            /* text-align: center; */
+            margin-left: -18%;
+        }
+        form#contacto {
+            margin-left: 20%;
+        }
+        #menu li a{
+            margin-left: 60px;
+        }
+        .grid{
+            grid-template-rows: 72% 23% 5%;
+        }
     }
-    form#contacto {
-        margin-left: 20%;
+    
+    @media only screen and (max-width: 435px) {
+        #img_logo {
+            margin: 50px 30px 0px 22px;
+        }
+        #menu li a{
+            margin-left: 40px;
+        }    
     }
-    #menu li a{
-        margin-left: 60px;
+
+    @media only screen and (max-width: 430px) {
+        #img_logo {
+            margin: 50px 30px 0px 22px;
+        }
+        #menu li a{
+            margin-left: 40px;
+        }    
+        h1 {
+            margin-top: 1.6em;
+        }
+        #img_logo {
+            margin: 45px 25px 0px 20px;
+        }
     }
-    .grid{
-        grid-template-rows: 72% 23% 5%;
+
+    @media only screen and (max-width: 414px) {
+        #enviar_form {
+            /* text-align: center; */
+            margin-left: -15%;
+        }
+        form#contacto {
+            margin-left: 16%;
+        }
     }
-}
+
+    @media only screen and (max-width: 410px) {
+        #enviar_form {
+            /* text-align: center; */
+            margin-left: -16%;
+        }
+        form#contacto {
+            margin-left: 15%;
+        }
+        ul#menu_foot li {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+
+    @media only screen and (max-width: 392px) {
+        #menu li a{
+            margin-left: 30px;
+        }
+        #enviar_form {
+            /* text-align: center; */
+            margin-left: -12%;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        #enviar_form {
+            /* text-align: center; */
+            margin-left: -8%;
+        }
+        .redes {
+            height: 20px;
+            width: 20px;
+        }
+        #p_foot{
+            font-size: 8px;
+        }
+    }
