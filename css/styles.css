@@ -734,3 +734,32 @@ ul#menu_foot{
         margin-left: 22%;
     }
 }
+
+@media only screen and (max-width: 470px) {
+    #enviar_form {
+        /* text-align: center; */
+        margin-left: -21%;
+    }
+    form#contacto {
+        margin-left: 22%;
+    }
+    #menu li a{
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #enviar_form {
+        /* text-align: center; */
+        margin-left: -18%;
+    }
+    form#contacto {
+        margin-left: 20%;
+    }
+    #menu li a{
+        margin-left: 60px;
+    }
+    .grid{
+        grid-template-rows: 72% 23% 5%;
+    }
+}
