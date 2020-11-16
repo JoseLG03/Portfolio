@@ -81,5 +81,6 @@ $(function() {
 });
 
 function limpiarFormulario(){
-  document.getElementById("contacto").reset();
+  setTimeout('document.getElementById("contacto").reset()',1000);
+  return false;
 }
