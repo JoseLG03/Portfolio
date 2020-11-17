@@ -154,30 +154,47 @@
                         </div> 
                         <div class="cursos">
                             <h3 class="cursos_link">
-                                <a href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
+                                <a class="esp" href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
                                     Fundamentos de SEO
                                 </a>
+                                <a class="eng" href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
+                                    SEO Basics
+                                </a>
                             </h3>
-                            <p>Certificado de LinkedIn Learning.</p>
-                            <p >Completado el 01/09/2020.</p>
+                            <p class="esp">Certificado de LinkedIn Learning.</p>
+                            <p class="eng">Udemy certificate.</p>
+                            
+                            <p class="esp">Completado el 01/09/2020.</p>
+                            <p class="eng">Completed on 01/09/2020.</p>
                         </div> 
                         <div class="cursos">
                             <h3 class="cursos_link">
-                                <a href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
+                                <a class="esp" href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
                                     Diseño de interfaz (UI) esencial
                                 </a>
+                                <a class="eng" href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
+                                    Essential interface design (UI)                                </a>
                             </h3>
-                            <p>Certificado de LinkedIn Learning.</p>
-                            <p >Completado el 01/09/2020.</p>
+                            <p class="esp">Certificado de LinkedIn Learning.</p>
+                            <p class="eng">Udemy certificate.</p>
+
+                            <p class="esp">Completado el 01/09/2020.</p>
+                            <p class="eng">Completed on 01/09/2020.</p>
                         </div> 
                         <div class="cursos">
                             <h3 class="cursos_link">
-                                <a href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
+                                <a class="esp" href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">
                                     Experiencia de usuario (UX) esencial
                                 </a>
+                                <a class="eng" href="https://www.linkedin.com/learning/fundamentos-de-seo?trk=flagship-lil_details_certification&trk=lil_details_certification">      
+                                    Essential user experience (UX)
+                                </a>
                             </h3>
-                            <p>Certificado de LinkedIn Learning.</p>
-                            <p>Completado el 01/08/2020.</p>
+                            <p class="esp">Certificado de LinkedIn Learning.</p>
+                            <p class="eng">Udemy certificate.</p>
+
+                            <p class="esp">Completado el 01/08/2020.</p>
+                            <p class="eng">Completed on 01/08/2020.</p>
                         </div> 
                     </div>
                     <div id="projects">
@@ -198,16 +215,20 @@
                     <h2 id="h2_contactame" class="esp">Contáctame</h2>
                     <h2 id="h2_contactame" class="eng">Contact me</h2>
                     <form name="contacto" id="contacto" method="post" action="https://formspree.io/f/mwkwqndw">
-                        <label id="nombre" for="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Nombre:</label>
+                       
+                        <label id="nombreForm" for="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Nombre:</label>
+                        <label id="nameForm" for="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Name:</label>
                         <input type="text" name="nombre" class="item_form" />
     
-                        <label id="email" for="email" class="item_form" size="40" placeholder="Introduce tu correo...">E-mail:</label>
+                        <label id="emailForm" for="email" class="item_form" size="40" placeholder="Introduce tu correo...">E-mail:</label>
                         <input type="email"  name="email" class="item_form" />
                         
-                        <label id="mensaje" for="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Mensaje:</label>
+                        <label id="mensajeForm" for="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Mensaje:</label>
+                        <label id="messageForm" for="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Message:</label>
                         <textarea rows="4" cols="40" name="mensaje" class="item_form"></textarea>
                         <p id="enviar_form">
-                            <input type="submit" class="item_form" id="btn_enviar" onclick="limpiarFormulario()" value="Enviar" />
+                            <input type="submit" class="esp" id="btn_enviar" onclick="limpiarFormulario()" value="Enviar" />
+                            <input type="submit" class="eng" id="btn_enviar" onclick="limpiarFormulario()" value="Send" />
                         </p>
                     </form>
                 </sidebar>

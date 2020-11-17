@@ -91,6 +91,9 @@ $(document).ready(function(){
   $("#lang").hide();
   $("#idioma").show();
   $(".esp").hide();
+  $("#nombreForm").hide();
+  $("#mensajeForm").hide();
+
 
 
   $("#idioma").click(function(){
@@ -98,7 +101,12 @@ $(document).ready(function(){
     $("#lang").show();
 
     $(".esp").show();
+    $("#nombreForm").show();
+    $("#mensajeForm").show();
+    
     $(".eng").hide();
+    $("#nameForm").hide();
+    $("#messageForm").hide();
   });
 
   $("#lang").click(function(){
@@ -106,6 +114,11 @@ $(document).ready(function(){
     $("#idioma").show();
 
     $(".eng").show();
+    $("#nameForm").show();
+    $("#messageForm").show();
+
     $(".esp").hide();
+    $("#nombreForm").hide();
+    $("#mensajeForm").hide();
   });
 });
