@@ -88,21 +88,22 @@ function limpiarFormulario(){
 
 //Ocultar informacion
 $(document).ready(function(){
-  $("#idioma").hide();
+  $("#lang").hide();
+  $("#idioma").show();
   $(".esp").hide();
 
-  $("#lang").click(function(){
-    $("#lang").hide();
-    $("#idioma").show();
-
-    $(".esp").show();
-    $(".eng").hide();
-
-  });
 
   $("#idioma").click(function(){
     $("#idioma").hide();
     $("#lang").show();
+
+    $(".esp").show();
+    $(".eng").hide();
+  });
+
+  $("#lang").click(function(){
+    $("#lang").hide();
+    $("#idioma").show();
 
     $(".eng").show();
     $(".esp").hide();
