@@ -124,7 +124,7 @@ ul#menu li{
     color: #cfd8dc;
 }
 
-#idioma{
+.idioma{
     border: 1px solid whitesmoke;
     padding: 0px 10px 0px 10px;
 }
@@ -577,14 +577,14 @@ ul#menu_foot{
     h1 {
         margin-top: 2.3em;
     }
-    #idioma{
+    .idioma{
         padding: 0px;
         border: none;
     }
     #menu li a{
         margin-left: 160px;
     }
-    #idioma{
+    .idioma{
         border: 1px solid whitesmoke;
         padding: 0px 10px 0px 10px;
     }
@@ -864,3 +864,4 @@ ul#menu_foot{
             margin-bottom: 40px;
         }
     }
+    

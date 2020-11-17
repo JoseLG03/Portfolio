@@ -80,7 +80,47 @@ $(function() {
 
 });
 
+//Limpiar formulario
 function limpiarFormulario(){
   setTimeout('document.getElementById("contacto").reset()',1000);
   return false;
 }
+
+//Ocultar informacion
+$(document).ready(function(){
+  $("#idioma").hide();
+  $("#aboutNav").hide();
+  $("#learningNav").hide();
+  $("#projectsNav").hide();
+  $("#h2About").hide();
+
+  $("#lang").click(function(){
+    $("#lang").hide();
+    $("#idioma").show();
+
+    $("#aboutNav").show();
+    $("#learningNav").show();
+    $("#projectsNav").show();
+    $("#h2About").show();
+
+    $("#acercaNav").hide();
+    $("#aprendizajeNav").hide();
+    $("#projectosNav").hide();
+    $("#h2Acerca").hide();
+  });
+
+  $("#idioma").click(function(){
+    $("#idioma").hide();
+    $("#lang").show();
+
+    $("#acercaNav").show();
+    $("#aprendizajeNav").show();
+    $("#projectosNav").show();
+    $("#h2Acerca").show();
+
+    $("#aboutNav").hide();
+    $("#learningNav").hide();
+    $("#projectsNav").hide();
+    $("#h2About").hide();
+  });
+});
