@@ -62,11 +62,11 @@ $(function() {
 
     messages: {
 
-      nombre: "Por favor, introduzca su nombre",
+      nombre: "Please, enter your name.",
 
-      email: "Por favor, introduce una dirección de correo electrónico válida",
+      email: "Please, enter your e-mail",
 
-      mensaje: "Por favor, introduzca su mensaje"    
+      mensaje: "Please, enter your message"    
 
     },
 
