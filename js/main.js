@@ -64,9 +64,9 @@ $(function() {
 
       nombre: "Please, enter your name.",
 
-      email: "Please, enter your e-mail",
+      email: "Please, enter your e-mail.",
 
-      mensaje: "Please, enter your message"    
+      mensaje: "Please, enter your message."    
 
     },
 
