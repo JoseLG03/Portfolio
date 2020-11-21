@@ -82,7 +82,7 @@ $(function() {
 
 //Limpiar formulario
 function limpiarFormulario(){
-  setTimeout('document.getElementById("contacto").reset()',2000);
+  setTimeout('document.getElementById("contacto").reset()',1000);
   return false;
 }
 
