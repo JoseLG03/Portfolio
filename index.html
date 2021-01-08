@@ -218,14 +218,14 @@
                        
                         <label id="nombreForm" for="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Nombre:</label>
                         <label id="nameForm" for="nombre" class="item_form" size="40" placeholder="Introduce tu nombre...">Name:</label>
-                        <input type="text" name="nombre" class="item_form" />
+                        <input type="text" name="nombre" class="item_form" required/>
     
                         <label id="emailForm" for="email" class="item_form" size="40" placeholder="Introduce tu correo...">E-mail:</label>
-                        <input type="email"  name="email" class="item_form" />
+                        <input type="email"  name="email" class="item_form" required/>
                         
                         <label id="mensajeForm" for="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Mensaje:</label>
                         <label id="messageForm" for="mensaje" class="item_form" placeholder="Introduce tu mensaje...">Message:</label>
-                        <textarea rows="4" cols="40" name="mensaje" class="item_form"></textarea>
+                        <textarea rows="4" cols="40" name="mensaje" class="item_form" required></textarea>
                         <p id="enviar_form">
                             <input type="submit" class="esp" id="btn_enviar" onclick="limpiarFormulario()" value="Enviar" />
                             <input type="submit" class="eng" id="btn_enviar" onclick="limpiarFormulario()" value="Send" />

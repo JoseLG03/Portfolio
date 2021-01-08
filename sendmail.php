@@ -1,6 +1,6 @@
 <?php
 
-$email_to = "contact@codingwithpepe.com";
+$email_to = "antares069@gmail.com";
 $email_subject = "Contacto desde mi sitio web";
 
 $email_message = "Detalles del formulario de contacto:\n\n";
