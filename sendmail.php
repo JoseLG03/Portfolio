@@ -1,16 +1,14 @@
 <?php
 
 $email_to = "antares069@gmail.com";
-$email_subject = "Contacto desde mi sitio web";
 
-$email_message = "Detalles del formulario de contacto:\n\n";
-$email_message .= "Nombre: " . $_POST['nombre'] . "\n";
-$email_message .= "E-mail: " . $_POST['email'] . "\n";
-$email_message .= "Mensaje: " . $_POST['mensaje'] . "\n";
+$email_subject = "Detalles del formulario de contacto:\n\n";
+$name = "Nombre: " . $_POST['nombre'] . "\n";
+$email = "E-mail: " . $_POST['email'] . "\n";
+$message = "Mensaje: " . $_POST['mensaje'] . "\n";
+$contenido = $name.$email.$message;
 
-$headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
-'X-Mailer: PHP/' . phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
+mail($email_to, $email_subject, $contenido);
+header("location:https://codingwithpepe.com/");
 
 ?>
