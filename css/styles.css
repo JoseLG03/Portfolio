@@ -1,8 +1,9 @@
 @font-face{
     font-family: "roboto";
-    src: url("../fonts/roboto.ttf");
+    src: local("Helvetica"), local("Arial"), url("../fonts/roboto.ttf");
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 html { 
@@ -11,7 +12,7 @@ html {
 
 body{
     background-color: #f8f8f8;
-    font-family: "roboto", Helvetica, sans-serif, Arial;
+    font-family: "roboto";
     margin: 0;
     padding: 0;
 }
