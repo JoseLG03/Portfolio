@@ -156,7 +156,7 @@ ul#menu li{
 .cursos{
     margin-top: 1em;
     margin-left: 15px;
-    font-size: 1rem;
+    font-size: 12px;
     
 }
 
@@ -560,7 +560,7 @@ ul#menu_foot{
 
 @media only screen and (max-width: 760px) {
     html { 
-        font-size: 0.7rem; 
+        font-size: 12px; 
     }
     ul#menu li{
         display: inline;
@@ -836,8 +836,9 @@ ul#menu_foot{
             height: 20px;
             width: 20px;
         }
+
         #p_foot{
-            font-size: 8px;
+            font-size: 12px;
         }
     }
 
