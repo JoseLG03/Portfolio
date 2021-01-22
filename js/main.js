@@ -86,7 +86,7 @@ function limpiarFormulario(){
   return false;
 }
 
-//Ocultar informacion
+//Ocultar informacion de la pagina en diferente idioma
 $(document).ready(function(){
   $("#lang").hide();
   $("#idioma").show();
