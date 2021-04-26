@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #007bff;
+    color: #115293;
     outline: none;
     text-decoration: none;
 }
@@ -44,20 +44,20 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #007bff;
+    background: #115293;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #007bff;
+    box-shadow: inset 0 0 0 50px #115293;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #007bff;
+    color: #115293;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+    box-shadow: inset 0 0 0 0 #115293;
+    border-color: #115293;
 }
 
 #loader {
@@ -91,7 +91,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #007bff;
+    border-top: 5px solid #115293;
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -188,20 +188,20 @@ a:focus {
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #007bff;
+        color: #115293;
     }
 
     .navbar-light .navbar-nav .nav-link,
     .navbar-light .navbar-nav .nav-link:focus {
         padding: 10px 10px 8px 10px;
-        color: #007bff;
+        color: #64b5f6;
         font-size: 15px;
         font-weight: 500;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-        color: #414141;
+        color:#115293;
     }
 
     .navbar-light .navbar-nav .nav-link:hover,
@@ -211,7 +211,7 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #007bff;
+        color: #115293;
     }
 }
 
@@ -222,7 +222,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #007bff;
+        color: #115293;
     }
     
     .navbar .navbar-nav {
@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(24, 27, 190, 0.95), rgba(91, 92, 158, 0.95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(to right bottom, #115293, #135ba2, #1564b2, #176dc2, #1976d2), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,7 +314,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #007bff;
+    color: #115293;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -439,7 +439,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #007bff;
+    background: #115293;
     z-index: -1;
 }
 
@@ -450,7 +450,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #007bff;
+    background: #115293;
     z-index: 1;
 }
 
@@ -532,7 +532,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #007bff;
+    background: #115293;
     border-radius: 10px;
     transition: 2s;
 }
@@ -565,7 +565,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #007bff;
+    background: #115293;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -597,7 +597,7 @@ a:focus {
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #007bff;
+    border: 2px solid #115293;
     border-radius: 16px;
     z-index: 1;
 }
@@ -629,7 +629,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #007bff;
+    color: #115293;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -743,7 +743,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #007bff;
+    box-shadow: inset 800px 0 0 0 #115293;
 }
 
 .service .service-icon {
@@ -753,14 +753,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #007bff;
+    border: 1px solid #115293;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #007bff;
+    color: #115293;
     transition: .3s;
 }
 
@@ -828,10 +828,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #007bff;
+    background: #115293;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #007bff;
+    box-shadow: inset 0 0 0 50px #115293;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -839,10 +839,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #007bff;
+    color: #115293;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+    box-shadow: inset 0 0 0 0 #115293;
+    border-color: #115293;
 }
 
 .portfolio .portfolio-item {
@@ -904,10 +904,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #007bff;
+    color: #115293;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+    box-shadow: inset 0 0 0 0 #115293;
+    border-color: #115293;
 }
 
 
@@ -919,7 +919,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #007bff;
+    background: #115293;
 }
 
 .banner .container {
@@ -956,7 +956,7 @@ a:focus {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #007bff;
+    color: #115293;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1010,7 +1010,7 @@ a:focus {
 }
 
 .price .price-item.featured-item .price-header {
-    color:#007bff;
+    color:#115293;
 }
 
 .price .price-title h2 {
@@ -1040,7 +1040,7 @@ a:focus {
 }
 
 .price .price-item.featured-item h2 {
-    color: #007bff;
+    color: #115293;
 }
 
 .price .price-body {
@@ -1076,15 +1076,15 @@ a:focus {
 
 .price .price-item.featured-item .price-action .btn {
     color: #ffffff;
-    background: #007bff;
-    box-shadow: inset 0 0 0 50px #007bff;
+    background: #115293;
+    box-shadow: inset 0 0 0 50px #115293;
 }
 
 .price .price-item.featured-item .price-action .btn:hover {
-    color: #007bff;
+    color: #115293;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+    box-shadow: inset 0 0 0 0 #115293;
+    border-color: #115293;
 }
 
 
@@ -1127,7 +1127,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #007bff;
+    color: #115293;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1166,7 +1166,7 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #007bff;
+    box-shadow: inset 800px 0 0 0 #115293;
 }
 
 .team .team-item:hover .team-img img {
@@ -1216,7 +1216,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #007bff;
+    background: #115293;
 }
 
 .contact .container-fluid {
@@ -1227,7 +1227,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #007bff;
+    background: #115293;
 }
 
 .contact .contact-form input {
@@ -1261,7 +1261,7 @@ a:focus {
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #007bff;
+    color: #115293;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1299,7 +1299,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #007bff;
+    background: #115293;
 }
 
 .footer .container-fluid {
