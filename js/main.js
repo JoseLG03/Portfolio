@@ -1,124 +1,109 @@
-let logo_face = document.getElementById( 'logo_face' );
-let logo_github = document.getElementById( 'logo_github' );
-let logo_linkedin = document.getElementById( 'logo_linkedin' );
-let logo_whats = document.getElementById('logo_whats');
-
-//funcion para cambiar el src de la imagen del logo
-function cambiarImagen(id, img){
-  document.getElementById(id).src=img;
-}
-
-logo_face.onmouseover = function(){
-  cambiarImagen(logo_face.id, './img/facebook_azul.png');
-}  
-
-logo_face.onmouseleave = function(){
-  cambiarImagen(logo_face.id, './img/facebook_negro.png');
-}  
-
-logo_github.onmouseover = function(){
-  cambiarImagen(logo_github.id, './img/github_azul.png');
-}  
-
-logo_github.onmouseleave = function(){
-  cambiarImagen(logo_github.id, './img/github_negro.png');
-}   
-
-logo_linkedin.onmouseover = function(){
-  cambiarImagen(logo_linkedin.id, './img/linkedin_azul.png');
-}  
-
-logo_linkedin.onmouseleave = function(){
-  cambiarImagen(logo_linkedin.id, './img/linkedin_negro.png');
-}   
-
-logo_whats.onmouseover = function(){
-  cambiarImagen(logo_whats.id, './img/whatsapp_verde.png');
-}  
-
-logo_whats.onmouseleave = function(){
-  cambiarImagen(logo_whats.id, './img/whatsapp_negro.png');
-}   
-
-//valition form
-var namePattern = "^[a-z A-Z]{4,30}$";
-var emailPattern = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$";
-
-
-$(function() {
-  $("form[name='contacto']").validate({
-
-    rules: {
-
-      nombre: "required",
-
-      mensaje: "required",
-
-      email: {
-        required: true,
-        email: true
-      }
-    },
-
-    messages: {
-
-      nombre: "Please, enter your name.",
-
-      email: "Please, enter your e-mail.",
-
-      mensaje: "Please, enter your message."    
-
-    },
-
-    submitHandler: function(form) {
-
-      form.submit();
-
-    }
-
-  });
-
-});
-
-//Limpiar formulario
-function limpiarFormulario(){
-  setTimeout('document.getElementById("contacto").reset()',1000);
-  return false;
-}
-
-//Ocultar informacion de la pagina en diferente idioma
-$(document).ready(function(){
-  $("#lang").hide();
-  $("#idioma").show();
-  $(".esp").hide();
-  $("#nombreForm").hide();
-  $("#mensajeForm").hide();
-
-
-
-  $("#idioma").click(function(){
-    $("#idioma").hide();
-    $("#lang").show();
-
-    $(".esp").show();
-    $("#nombreForm").show();
-    $("#mensajeForm").show();
+(function ($) {
+    "use strict";
     
-    $(".eng").hide();
-    $("#nameForm").hide();
-    $("#messageForm").hide();
-  });
+    // loader
+    var loader = function () {
+        setTimeout(function () {
+            if ($('#loader').length > 0) {
+                $('#loader').removeClass('show');
+            }
+        }, 1);
+    };
+    loader();
+    
+    
+    // Initiate the wowjs
+    new WOW().init();
+    
+    
+    // Back to top button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('.back-to-top').fadeIn('slow');
+        } else {
+            $('.back-to-top').fadeOut('slow');
+        }
+    });
+    $('.back-to-top').click(function () {
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
+    });
+    
+    
+    // Sticky Navbar
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $('.navbar').addClass('nav-sticky');
+        } else {
+            $('.navbar').removeClass('nav-sticky');
+        }
+    });
+    
+    
+    // Smooth scrolling on the navbar links
+    $(".navbar-nav a").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top - 45
+            }, 1500, 'easeInOutExpo');
+            
+            if ($(this).parents('.navbar-nav').length) {
+                $('.navbar-nav .active').removeClass('active');
+                $(this).closest('a').addClass('active');
+            }
+        }
+    });
+    
+    
+    // Typed Initiate
+    if ($('.hero .hero-text h2').length == 1) {
+        var typed_strings = $('.hero .hero-text .typed-text').text();
+        var typed = new Typed('.hero .hero-text h2', {
+            strings: typed_strings.split(', '),
+            typeSpeed: 100,
+            backSpeed: 20,
+            smartBackspace: false,
+            loop: true
+        });
+    }
+    
+    
+    // Skills
+    $('.skills').waypoint(function () {
+        $('.progress .progress-bar').each(function () {
+            $(this).css("width", $(this).attr("aria-valuenow") + '%');
+        });
+    }, {offset: '80%'});
 
-  $("#lang").click(function(){
-    $("#lang").hide();
-    $("#idioma").show();
 
-    $(".eng").show();
-    $("#nameForm").show();
-    $("#messageForm").show();
+    // Testimonials carousel
+    $(".testimonials-carousel").owlCarousel({
+        center: true,
+        autoplay: true,
+        dots: true,
+        loop: true,
+        responsive: {
+            0:{
+                items:1
+            }
+        }
+    });
+    
+    
+    
+    // Portfolio filter
+    var portfolioIsotope = $('.portfolio-container').isotope({
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
+    });
 
-    $(".esp").hide();
-    $("#nombreForm").hide();
-    $("#mensajeForm").hide();
-  });
-});
+    $('#portfolio-filter li').on('click', function () {
+        $("#portfolio-filter li").removeClass('filter-active');
+        $(this).addClass('filter-active');
+        portfolioIsotope.isotope({filter: $(this).data('filter')});
+    });
+    
+})(jQuery);
+
