@@ -826,6 +826,16 @@ a:focus {
     font-weight: 100;
 }
 
+.portfolio .portfolio-text a.code {
+    width: 50px;
+    height: 50px;
+    padding: 0 0 1px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 100;
+}
 .portfolio .portfolio-item:hover a.btn {
     color: #115293;
     background: transparent;
