@@ -732,7 +732,7 @@ a:focus {
 /*******************************/
 .portfolio {
     position: relative;
-    padding: 45px 0 40px 0;
+    padding: 45px 0 400px 0px;
 }
 
 .portfolio #portfolio-filter {
